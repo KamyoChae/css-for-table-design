@@ -1,0 +1,241 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charser="" />
+    <title>index</title>
+ <style>
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑"
+ }
+
+.tab{
+    border: 1px solid #555;
+    border-spacing: 0px;
+    width: 100%;
+    height: 2000px;
+}
+td{
+    width: 50px;
+    height: 90px;
+}
+
+.banner{
+    height: 150px;
+    width:300px;
+    background: url("../images/td1bg.png") center center;
+    background-size: cover;
+}
+.text{
+    width:100%;
+    height: 100%;
+    background: rgba(113, 148, 150, 0.21);
+    text-align: center;
+    padding-top: 300px; 
+}
+p{
+    font-weight: 1;
+    color: #fff;
+}
+.h1{
+    font-size: 100px;
+    text-shadow: 5px 5px 10px #000;
+}
+.h2{
+    font-size: 20px;
+    opacity: 0.5;
+
+    text-shadow: 5px 5px 5px #000;
+}
+
+.text1{
+    background: url("../images/text2 (1).jpg") center center;
+
+}
+.text2{
+    background: url("../images/text2 (2).jpg") center center;
+}
+.text3{
+    background: url("../images/text2 (3).jpg") center center;
+}
+.text4{
+    background: url("../images/text2 (4).jpg") center center;
+}
+.text5{
+    background: url("../images/text2 (5).jpg") center center;
+}
+.text6{
+    background: url("../images/text2 (6).jpg") center center;
+}
+.text7{
+    background: url("../images/text2 (7).jpg") center center;
+}
+.text8{
+    background: url("../images/text2 (8).jpg") center center;
+}
+.text9{
+    background: url("../images/text2 (9).jpg") center center;
+}
+.text10{
+    background: url("../images/text2 (10).jpg") center center;
+}
+
+.opacity{
+        background-size: cover; 
+}
+.opacity>div{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    transition: all 0.3s ;
+}
+.opacity span{
+
+    opacity:inherit;
+    font-size: 20px;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+
+    transition: all 0.3s ;
+}
+.opacity a{
+    opacity:inherit;
+    display: inline-block;
+    text-decoration:none;
+    width: 100px;
+    border: 1px solid #fff;
+    padding: 2px;
+    color: #eee;
+    text-align: center;
+    margin-left: 10px;
+
+    transition: all 0.3s ;
+}
+
+.include{
+    opacity: 0;
+    padding: 10px;
+}
+.opacity>div:hover{
+    background:rgba(25,23,32,.95);
+}
+.opacity>div:hover .include{
+      opacity: 1;
+}
+
+</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table class="tab">
+        <tr>
+            <td class="banner" colspan="4">
+                <div class="text">
+                    <p class="h1">智能 技术 共享</p>
+                    <p class="h2">专注于人工智能开发的共享平台</p>
+                </div>
+            </td>
+        </tr>
+
+        <tr >
+            <td colspan="2" class="text1 opacity">
+                <div>
+                    <div class="include">
+                        <span>镜世界</span>
+                        <a href="#">点击下载</a>
+                    </div>
+                </div>
+            </td>
+            <td colspan="2" rowspan="2"   class="text2 opacity">
+                <div>
+                    <div class="include">
+                    <span>三点一线</span>
+                    <a href="#">点击下载</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+              <td rowspan="2"  class="text3 opacity">
+                <div>
+                      <div class="include">
+                    <span>蜂窝</span>
+                    <a href="#">点击下载</a>
+                    </div>
+                </div>
+
+              </td>
+            <td  class="text4 opacity">
+                <div>
+                      <div class="include">
+                    <span>多卡直达</span>
+                    <a href="#">点击下载</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+          
+            <td colspan="2"   class="text5 opacity">
+                <div>
+                      <div class="include">
+                    <span>极限挑战</span>
+                    <a href="#">点击下载</a>
+                    </div>
+                </div>
+            </td>
+            <td rowspan="2"  class="text6 opacity">
+                <div>
+                      <div class="include">
+                    <span>三棱门</span>
+                    <a href="#">点击下载</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" rowspan="2"  class="text7 opacity">
+                <div>
+                      <div class="include">
+                    <span>浮沙古郡</span>
+                    <a href="#">点击下载</a>
+                    </div>
+                </div>
+            </td>
+            <td  class="text8 opacity">
+                <div>
+                      <div class="include">
+                    <span>柃木渠</span>
+                    <a href="#">点击下载</a>
+                    </div>
+                </div>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td  class="text9 opacity">
+                <div>
+                      <div class="include">
+                    <span>乌衣巷</span>
+                    <a href="#">点击下载</a>
+                    </div>
+                </div>
+            </td>
+            <td  class="text10 opacity">
+                <div>
+                      <div class="include">
+                    <span>大明宫</span>
+                    <a href="#">点击下载</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
